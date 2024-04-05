@@ -82,6 +82,71 @@ color: rgb(0, 0, 0);
     width: 80vw;
     height: 60vh;
     margin-left: 20vw;
-    display: block;
+    display: flex;
     margin-top: 20vh;
+}
+.pic{
+    width: 30vw;
+    height: 60vh;
+    position: absolute;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+h1.title{
+    color: #ff6122;
+}
+h1.title span img{
+    width: 5vw;
+    height: 5vh;
+    fill:#ff6122;
+}
+.click.read{
+    display: inline-block;
+    font-weight: var(--font-weight-semi-bold);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    user-select: none;
+    transition: all .1s ease-in-out;
+    position: relative;
+    padding: 5px 25px;
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-h1-mw);
+    border-radius: 6px;
+    margin: 3px 5px;
+    color: var(--ds-neutral-00-solid);
+    background-color: var(--wp-base-1);
+    border-color: transparent;
+    min-width: 170px;
+}
+.click.write{
+    display: inline-block;
+    font-weight: var(--font-weight-semi-bold);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    user-select: none;
+    transition: all .1s ease-in-out;
+    position: relative;
+    padding: 5px 25px;
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-h1-mw);
+    border-radius: 6px;
+    margin: 3px 5px;
+    color: var(--ds-neutral-00-solid);
+    background-color: var(--wp-base-1);
+    border-color: transparent;
+    min-width: 170px;
 }
