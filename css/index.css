@@ -100,7 +100,8 @@ color: rgb(0, 0, 0);
 }
 h1.title{
     color: #ff6122;
-    font-size: 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
 .hero-devices{
     width: 15vw;
