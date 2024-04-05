@@ -75,3 +75,6 @@ color: rgb(0, 0, 0);
 .link.last{
     margin-right: 40px;
 }
+.link.name{
+    margin-left: 40px;
+}
