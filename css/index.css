@@ -100,10 +100,12 @@ color: rgb(0, 0, 0);
 }
 h1.title{
     color: #ff6122;
+    font-size: 20px;
 }
 .hero-devices{
     width: 15vw;
     height: 15vh;
+    right: 0;
 }
 h1.title img{
     width: 5vw;
@@ -153,4 +155,7 @@ h1.title img{
     background-color: #ff6122;
     border-color: transparent;
     min-width: 170px;
+}
+.container-s{
+    width: 60vw;
 }
