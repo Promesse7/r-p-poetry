@@ -145,11 +145,11 @@ h1.title img{
     transition: all .1s ease-in-out;
     position: relative;
     padding: 5px 25px;
-    font-size: small;
+    font-size: var(--font-size-sm);
     line-height: var(--line-height-h1-mw);
     border-radius: 6px;
     margin: 3px 5px;
-    color: var(--ds-neutral-00-solid);
+    color: #fff;
     background-color: #ff6122;
     border-color: transparent;
     min-width: 170px;
