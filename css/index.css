@@ -112,7 +112,7 @@ h1.title img{
 }
 .click.read{
     display: inline-block;
-    font-weight: var(--font-weight-semi-bold);
+    font-weight:semi-bold;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -127,14 +127,14 @@ h1.title img{
     line-height: var(--line-height-h1-mw);
     border-radius: 6px;
     margin: 3px 5px;
-    color: var(--ds-neutral-00-solid);
-    background-color: var(--wp-base-1);
+    color:#fff;
+    background-color: #ff6122;
     border-color: transparent;
     min-width: 170px;
 }
 .click.write{
     display: inline-block;
-    font-weight: var(--font-weight-semi-bold);
+    font-weight: semi-bold;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -145,12 +145,12 @@ h1.title img{
     transition: all .1s ease-in-out;
     position: relative;
     padding: 5px 25px;
-    font-size: var(--font-size-sm);
+    font-size: small;
     line-height: var(--line-height-h1-mw);
     border-radius: 6px;
     margin: 3px 5px;
     color: var(--ds-neutral-00-solid);
-    background-color: var(--wp-base-1);
+    background-color: #ff6122;
     border-color: transparent;
     min-width: 170px;
 }
