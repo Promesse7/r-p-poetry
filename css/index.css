@@ -10,8 +10,15 @@
     align-items: center;
     height: 10vh;
     border: 0px;
-    border-bottom: 0.25px solid rgb(48, 48, 48);
     width: 100vw;
+    border-bottom: 0.25px solid var(--wp-neutral-3);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+    color: var(--stroke-color);
+    z-index: 10;
 }
 .top-bar h1{
     font-size: 20px;
@@ -30,10 +37,10 @@
     background-color: rgba(214, 3, 186, 0.986);
     padding: 10px;
     border: 0px;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+    border-bottom-right-radius: 20vh;
+    border-bottom-left-radius: 20vh;
     width: 15vw;
     height: 4vh;
 }
@@ -58,7 +65,9 @@ a{
     text-decoration-color: none;
 }
 select{
-    padding: 10px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
 }
 .link a:hover{
 color: rgb(0, 0, 0);
