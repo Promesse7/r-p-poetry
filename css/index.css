@@ -11,7 +11,7 @@
     height: 10vh;
     border: 0px;
     width: 100vw;
-    border-bottom: 0.25px solid var(--wp-neutral-3);
+    border-bottom: 0.5px solid var(--wp-neutral-3);
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -71,4 +71,7 @@ select{
 }
 .link a:hover{
 color: rgb(0, 0, 0);
+}
+.link.last{
+    margin-right: 40px;
 }
