@@ -10,7 +10,7 @@
     align-items: center;
     height: 10vh;
     border: 0px;
-    border-bottom: 0.5px solid rgb(48, 48, 48);
+    border-bottom: 0.25px solid rgb(48, 48, 48);
     width: 100vw;
 }
 .top-bar h1{
@@ -29,14 +29,22 @@
 .link.try{
     background-color: rgba(214, 3, 186, 0.986);
     padding: 5px;
+    border: 0px;
+    border-radius: 20%;
 }
 .link input{
-    width: 40vh;
-    height: 4vh;
+    width: 60vh;
+    height: 5vh;
+    border: 0px;
+    margin-top: 2vh;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: transparent;
 }
 .link img{
     height: 8vh;
-    width: 20px;
+    width: 40px;
 }
 a{
     text-decoration: none;
