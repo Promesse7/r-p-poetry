@@ -79,7 +79,7 @@ color: rgb(0, 0, 0);
     margin-left: 40px;
 }
 .intro{
-    width: 80vw;
+    width: 60vw;
     height: 60vh;
     margin-left: 20vw;
     display: flex;
@@ -101,7 +101,11 @@ color: rgb(0, 0, 0);
 h1.title{
     color: #ff6122;
 }
-h1.title span img{
+.hero-devices{
+    width: 15vw;
+    height: 15vh;
+}
+h1.title img{
     width: 5vw;
     height: 5vh;
     fill:#ff6122;
