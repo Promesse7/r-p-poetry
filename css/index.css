@@ -28,7 +28,7 @@
 }
 .link.try{
     background-color: rgba(214, 3, 186, 0.986);
-    padding: 5px;
+    padding: 10px;
     border: 0px;
     border-radius:0% 50%;
     width: 15vw;
@@ -42,6 +42,8 @@
     align-items: center;
     text-align: left;
     color: black;
+    font-size: medium;
+    padding-left: 10px;
     background-color: transparent;
 }
 .link img{
@@ -54,4 +56,7 @@ a{
 }
 select{
     padding: 10px;
+}
+.link a:hover{
+color: ;
 }
