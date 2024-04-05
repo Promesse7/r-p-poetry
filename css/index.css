@@ -8,8 +8,7 @@
     align-items: center;
     float: right;
 }
-.top-bar h1{
-    font-size: 40px;
+.top-bar h5{
+    font-size: 80px;
     font-family: fantasy;
-    
 }
