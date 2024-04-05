@@ -30,7 +30,7 @@
     background-color: rgba(214, 3, 186, 0.986);
     padding: 5px;
     border: 0px;
-    border-radius:0% 20%;
+    border-radius:0% 50%;
     width: 15vw;
     height: 4vh;
 }
@@ -38,9 +38,9 @@
     width: 60vh;
     height: 6vh;
     border: 0px;
-    margin-top: 2vh;
+    margin-top: 1vh;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: black;
     background-color: transparent;
 }
