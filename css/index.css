@@ -184,7 +184,7 @@ h1.title img{
 }
 
 .descri{
-    font-size: 18px;
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     line-height: normal;
@@ -192,6 +192,7 @@ h1.title img{
     margin-bottom: 0;
     margin-top: 20px;
     color: #6f6f6f;
+    width: 50vw;
 }
 p.time{
     font-size:14px;
@@ -245,4 +246,7 @@ p.time{
     margin-left: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+.way-container{
+     display: flex;
 }
