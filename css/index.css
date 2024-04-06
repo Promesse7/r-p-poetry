@@ -81,9 +81,9 @@ color: rgb(0, 0, 0);
 .intro{
     width: 60vw;
     height: 60vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
     display: flex;
-    margin-top: 20vh;
+    margin-top: 15vh;
     justify-content: space-between;
     align-items: center;
 }
@@ -114,8 +114,8 @@ h1.title{
     text-align: left;
 }
 .hero-devices{
-    width: 15vw;
-    height: 15vh;
+    width: 35vw;
+    height: 35vh;
     right: 0;
     margin-left: 80vw;
     align-self: center;
